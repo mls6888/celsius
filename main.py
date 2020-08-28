@@ -1,7 +1,6 @@
-print("Hello World")
-c = input("Enter Tempurature in celsius: ")
-c = int(c)
-print(c + "° in celsius is equivalent to" + c *2 + 30 + "° in farenheit")
+c = input("Enter tempurature in celsius: " )
+c = float(c)
+print (f" {c}° in Celsius is equivalent to {c *1.8 + 32} ° in Farenheit" )
 
 
 
